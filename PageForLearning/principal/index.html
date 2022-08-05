@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page for learning</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="containerCabecalho">
+        <div class="divMenu">
+          <ul class="listaMenu">
+            <li class="item">
+              <a href="index.html" target="_blank">home</a>
+            </li>
+            <li class="item"><a href="../secundario/portfolio.html">portfólio</a></li>
+            <li class="item"><a href="#">contato</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="containerPrincipal">
+        <div class="containerSecundaria">
+            <article>
+                <h1>Pagina de estudos HTML, CSS e JavaScript</h1>
+                <p id="paragrafo">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                    temporibus neque in quaerat facilis? Dicta ducimus, dolore ipsa
+                    quod laudantium consequuntur in quo, iure molestiae asperiores
+                    illo eos odit sunt!
+                </p>
+                <button type="button" onclick="mudarTexto()">Mudar texto</button>
+                
+                <p id="paragrafodois">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
+                    quaerat delectus suscipit possimus fuga dicta! Consequuntur,
+                    impedit ut animi quo eum alias commodi officiis repudiandae
+                    perferendis nobis consectetur ratione quasi?
+                </p>
+                <button type="button" onclick="mudarTextoDois()">
+                    Mudar texto
+                </button>
+                <p id="paragrafotres">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In dicta
+                    omnis odit corrupti! Earum tempora aut accusamus nulla provident
+                    tempore soluta in ipsa explicabo. Aut officia id reprehenderit.
+                    Beatae, tempora!
+                </p>
+                <button type="button" onclick="mudarTextotres()">
+                    Mudar texto
+                </button>
+            </article>
+          </div>
+          <div class="relogio">
+            <p id="horario">Hoje é</p>
+            <button type="button" onclick="mostrarData()">
+              Clique aqui para ver a data e hora
+            </button>
+          </div>
+          <div class="calc">
+            <h2>Calduladora</h2>
+            <input type="number" name="num1" id="num1">
+            <input type="number" name="num2" id="num2">
+            <div class="op">
+              <input type="button" value="+" onclick="somar()" ></button>
+              <input type="button" value="-" onclick="subtrair()" ></button>
+              <input type="button" value="*" onclick="multiplicar()" ></button>
+              <input type="button" value="/" onclick="dividir()" ></button>  
+              <div class="" id="res"></div>
+            </div>
+          </div>
+        </div>
+        <footer class="rodape">
+          <div class="containerRodape">&copy; Daniel Rosa Ferreira</div>
+      </footer>
+    </div>
+  </body>
+</html>
