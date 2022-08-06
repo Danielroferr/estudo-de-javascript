@@ -59,23 +59,31 @@
     
 }
 .calc{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(25, 108, 180);
     height: fit-content;
-    width: fit-content;
-    margin-left: 40%;
-}
-.calc{
+    max-width: 500px;
+    padding:2rem 2rem;
+    margin-left:30% ;
     border: solid 1px brown;
-    border-radius: 5px;
+    border-radius: 54px;
+   
+}
+.calc h2{
+    text-align: center;
 }
 .calc input{
     height: 20px;
     width: 80px;
     background-color: rgb(172, 206, 236);
-    align-content: center;
+    align-self: center;
     text-align: center;
     border: solid 1px brown;
     border-radius: 5px;
+}
+.op{
+    align-self: center;
 }
 
 .rodape{
